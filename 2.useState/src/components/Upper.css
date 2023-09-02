@@ -1,0 +1,24 @@
+.flexBox{
+    display:flex;
+    gap:100px;
+    flex-wrap:wrap;
+    position:relative;
+}
+.btn{
+   background-color: blueviolet;
+   margin-left: 2px;
+   padding:4px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.btn:hover{
+ background-color:blue;
+}
+textarea{
+    width: 300px;
+}
+.words{
+    position: absolute;
+    right:120px;
+    top:50px;
+}

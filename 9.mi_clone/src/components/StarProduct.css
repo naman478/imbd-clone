@@ -1,0 +1,14 @@
+.sp{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.hover{
+    transition: all 0.5s;
+}
+.hover:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+} 
+

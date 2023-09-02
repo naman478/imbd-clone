@@ -1,0 +1,40 @@
+.preFooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding:45px 45px;
+    font-family:  sans-serif;
+}
+.preFooter_cards{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.preFooter_h4{
+    margin-bottom: 4px;
+}
+.Footer{
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   gap:80px;
+   padding:30px 10px;
+}
+.Footer div {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri
+}
+.Footer div p{
+margin-bottom: 20px;
+color:beige;
+}
+.Footer div a{
+    color: white;
+    text-decoration: none;
+}
+.Footer div a:hover{
+    color:orange;
+}

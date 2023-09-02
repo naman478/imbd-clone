@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.video_container{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    justify-content: center;
+}
+.video_container div{
+    background-color: white;
+    transition: all 0.5s;
+}
+.video_container div img{
+width: 340px;
+}
+.video_container div p{
+    padding: 10px;
+    text-align: center;
+}
+.video_container div:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}

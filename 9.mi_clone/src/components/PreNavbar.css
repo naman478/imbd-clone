@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@650&display=swap');
+
+.top{
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 20px 0px 20px 40px;
+    font-family: 'DM Sans', sans-serif;
+}
+.top1,.top2{
+    display: flex;
+    list-style-type: none;
+    gap:17px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.top1{
+    flex:60%;
+    /* background-color: peru; */
+}
+
+.top2{
+    flex:20%;
+    /* background-color: aqua; */
+}
+
+li:hover{
+    /* border-bottom: 2px solid red; */
+    color: red;
+}

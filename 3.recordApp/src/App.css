@@ -1,0 +1,33 @@
+.App{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+  width:100vw;
+  text-align: center;
+}
+
+.header{
+  text-align:center;
+  background-color: rgba(197, 110, 223, 0.71);
+  height:50px;
+  padding:5px;
+  width:100%;
+}
+
+.userInfo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.userInfo_inside{
+  display:flex;
+  justify-content: space-between;
+  width:50%;
+  height: 40px;
+  padding:9px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 3px;
+}
+

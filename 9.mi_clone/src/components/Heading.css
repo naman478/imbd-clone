@@ -1,0 +1,15 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 10px;
+    gap: 20px;
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(77, 77, 77);
+    margin: 25px 0px;
+}
+.heading1,.heading3{
+    height: 2px;
+    width: 33vw;
+    background-color: rgba(39, 39, 39, 0.274);
+}

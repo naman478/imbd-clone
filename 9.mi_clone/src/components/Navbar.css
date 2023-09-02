@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    background-color:rgb(249, 244, 244);
+}
+.nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav1,.nav2{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    gap:30px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav2{
+    gap:5px;
+}
+.search{
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+    width:170px;
+    outline: 0;
+    padding-bottom: 10px;
+}
+.offerLink:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+   }
